@@ -13,10 +13,10 @@
 
 </div>
 
-**Author:** Gabriel Martin G. Guillergan
-**Academic Year:** 2026 - 2027 
-**Instructor:** Ms. _
-**Section:** ICT 12-01
+**Author:** Gabriel Martin G. Guillergan <br>
+**Academic Year:** 2026 - 2027 <br>
+**Instructor:** Ms. ________________ <br>
+**Section:** ICT 12-01 <br>
 
 ## Repository Structure
 
@@ -38,7 +38,7 @@ These contain the implementation for Worksheet 2.1 and 2.2 for Computer Programm
 - Apache NetBeans IDE (optional, for NetBeans project management)
 
 > [!NOTE]
-> Netbeans 8.2 is used in the worksheets and in the computer ;laboratory. I use a newer version of Netbeans on my workstation, but this repo is backward-compatible since it uses Java with Ant. (which Netbeans 8.2 natively supports).
+> Netbeans 8.2 is used in the worksheets and in the computer laboratory. I use a newer version of Netbeans on my workstation, but this repo is backward-compatible since it uses Java with Ant. (which Netbeans 8.2 natively supports).
 
 ### Option 1: Command Line (4 d nerds)
 
