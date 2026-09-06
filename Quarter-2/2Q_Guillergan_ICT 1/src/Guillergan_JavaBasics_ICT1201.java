@@ -26,6 +26,6 @@ public class Guillergan_JavaBasics_ICT1201 {
         Guillergan_JavaBasics_ICT1201 callClass = new Guillergan_JavaBasics_ICT1201();
         
         callClass.introduction("Gab", "Programming and Sleeping", 16);
-        callClass.introduction("Sam", "Dancing and Drawing", 15);
+        callClass.introduction("Jojo", "Programming and Sleeping (also i guess...)", 17);
     }
 }
