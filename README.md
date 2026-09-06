@@ -9,7 +9,8 @@
 
 <!-- Badges -->
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
-  <img src="https://img.shields.io/badge/NetBeans-1B6AC6?style=for-the-badge&logo=apache-netbeans&logoColor=white"> </br>
+  <img src="https://img.shields.io/badge/NetBeans-1B6AC6?style=for-the-badge&logo=apache-netbeans&logoColor=white" />
+  <img src="https://img.shields.io/github/actions/workflow/status/gmguillergan/JavaPlayground/ci.yml?branch=main&style=for-the-badge&logo=githubactions&logoColor=white&label=CI" />
 
 </div>
 
