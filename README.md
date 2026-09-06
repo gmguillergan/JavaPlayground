@@ -16,19 +16,35 @@
 
 **Author:** Gabriel Martin G. Guillergan <br>
 **Academic Year:** 2026 - 2027 <br>
-**Instructor:** Ms. ________________ <br>
+**Instructor:** Ms. ___________ <br>
 **Section:** ICT 12-01 <br>
 
-## Repository Structure
+---
 
-### 1. `2Q_Guillergan_ICT 1`
-These contain the implementation for Worksheet 2.1 and 2.2 for Computer Programming 3.
+## Curriculum Flow & Repository Structure
 
-| File | What it does |
-|---|---|
-| `Guillergan_Operator_ICT1201.java` | Simple program that prompts the user for two numerical grades using `java.util.Scanner`, compares which grade is higher or if both are equal, and checks whether each grade meets the passing threshold of 75. |
-| `Guillergan_JavaBasics_ICT1201.java` | Simple program that demonstrates [class creation](https://brookesystem32.github.io/javaAbsurdism/5--and--6---organizational-structures/6-classes--and--objects/6---classes--and--objects#class), instance methods, and [object instantiation](https://brookesystem32.github.io/javaAbsurdism/5--and--6---organizational-structures/6-classes--and--objects/6---classes--and--objects#objects--instantiate). |
+The exercises in this repository follow the lecture sequence of **Computer Programming 3 (2nd Quarter Period)**:
 
+### Quarter 2 Overview
+
+| Lesson | Topic | Associated Work / File | Status |
+|---|---|---|---|
+| **Lesson 2.1** | Applying Basics of Java Programming (Syntax, Variables, Scanner, JVM/JDK/JRE) | [`Guillergan_Operator_ICT1201.java`](Quarter-2/2Q_Guillergan_ICT%201/src/Guillergan_Operator_ICT1201.java) (Worksheet 2.1) | Completed |
+| **Lesson 2.2** | Fundamentals of OOP (Classes, Objects, Methods, Constructors, Attributes) | [`Guillergan_JavaBasics_ICT1201.java`](Quarter-2/2Q_Guillergan_ICT%201/src/Guillergan_JavaBasics_ICT1201.java) (Worksheet 2.2) | Completed |
+| **Lesson 2.3** | Basic OOP Concepts: Inheritance & Polymorphism (`extends`, `@Override`, polymorphic references) | `Lesson 2.3 Lab Activity` | Upcoming |
+| **Lesson 4** | Basic OOP Concepts: Encapsulation & Abstraction (getters/setters, `abstract`, interfaces) | `Lesson 4 Lab Activity` | Upcoming |
+
+### Quarter 2 Worksheets Breakdown
+
+#### 1. `Guillergan_Operator_ICT1201.java` (Worksheet 2.1)
+- **Lecture Focus:** Lesson 2.1 (Syntax, Variable Declarations, Execution Flow).
+- **Implementation:** Prompts the user for two numerical grades via `java.util.Scanner`, evaluates which grade is higher or if both are identical, and verifies if each grade satisfies the passing threshold of 75.
+
+#### 2. `Guillergan_JavaBasics_ICT1201.java` (Worksheet 2.2)
+- **Lecture Focus:** Lesson 2.2 (Class Blueprint, Object Instantiation, Instance Methods).
+- **Implementation:** Demonstrates custom class structure, instance methods with parameters, and object instantiation via the `new` keyword.
+
+---
 
 ## Running the Code
 > wait... kailangan pa ba ito?? 😭😭 okay, I don't really care but here it is anyway lolol.
@@ -39,7 +55,7 @@ These contain the implementation for Worksheet 2.1 and 2.2 for Computer Programm
 - Apache NetBeans IDE (optional, for NetBeans project management)
 
 > [!NOTE]
-> Netbeans 8.2 is used in the worksheets and in the computer laboratory. I use a newer version of Netbeans on my workstation, but this repo is backward-compatible since it uses Java with Ant. (which Netbeans 8.2 natively supports).
+> Netbeans 8.2 is used in the worksheets and in the computer laboratory. I use a newer version of Netbeans on my workstation, but this repo is backward-compatible since it uses Java with Ant (which Netbeans 8.2 natively supports).
 
 ### Option 1: Command Line (4 d nerds)
 
