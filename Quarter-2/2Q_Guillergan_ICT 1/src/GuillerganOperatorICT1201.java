@@ -2,17 +2,17 @@ import java.util.Scanner;
 
 /**
  * ---------------------------------------------------------
- * Subject:    Computer Programming
- * Class:      Guillergan_Operator_ICT1201
- * Author:     chanchanjeu
- * Section:    ICT 12-01
- * Date:       Sep 5, 2026 12:19:50 PM
- * Description: Worksheet / Laboratory Activity Implementation
- * ---------------------------------------------------------
+ Subject:    Computer Programming
+ Class:      GuillerganOperatorICT1201
+ Author:     chanchanjeu
+ Section:    ICT 12-01
+ Date:       Sep 5, 2026 12:19:50PM
+ Description: Worksheet / Laboratory Activity Implementation
+ ---------------------------------------------------------
  *
  * @author chanchanjeu
  */
-public class Guillergan_Operator_ICT1201 {
+public class GuillerganOperatorICT1201 {
     
     // Method to compare two grades
     public static void compareGrades(double grade1, double grade2) {
