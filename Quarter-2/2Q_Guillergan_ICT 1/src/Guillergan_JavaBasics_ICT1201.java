@@ -18,14 +18,4 @@ public class Guillergan_JavaBasics_ICT1201 {
         System.out.println("My hobbies are " + hobby);
         System.out.println("-~-~-~***~-~-~-");
     }
-    
-    // Main method
-    public static void main(String[] args) {
-        
-        // Create object (Object Instantiation)
-        Guillergan_JavaBasics_ICT1201 callClass = new Guillergan_JavaBasics_ICT1201();
-        
-        callClass.introduction("Gab", "Programming and Sleeping", 16);
-        callClass.introduction("Jojo", "Programming and Sleeping (also i guess...)", 17);
-    }
 }
