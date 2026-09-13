@@ -22,13 +22,11 @@ public class PreTestLoop {
          * 1. Initializes the variable `i` with the data type `int`.
          * 2. Then, for every i is less than 5, increment i with 1
          * 3. Print `a a - - - - a a` to the output
-         * 4. If ever i is greater than 5, it will stop the loop (and continue the program if ever)
-         *      since the condition is no longer met.
+         * 4. If ever i is greater than 5, it will stop the loop (and continue the program if ever) since the condition is no longer met. ganern
          */
         for (int i = 0; i < 5; i++) {
             System.out.println("a a - - - - a a");
+		}
+	}
 }
 
-    }
-    
-}
