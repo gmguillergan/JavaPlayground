@@ -1,3 +1,5 @@
+package DiagnosticTest;
+
 /**
  * ---------------------------------------------------------
  * Subject:    Computer Programming
