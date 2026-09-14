@@ -1,3 +1,5 @@
+package Lesson2_1;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -10,7 +12,7 @@
  * Author:     chanchanjeu
  * Section:    ICT 12-01
  * Date:       Sep 13, 2026 10:53:52 PM
- * Description: Worksheet / Laboratory Activity Implementation
+ * Description: Worksheet 2.2 / Laboratory Activity Implementation
  * ---------------------------------------------------------
  *
  * @author chanchanjeu

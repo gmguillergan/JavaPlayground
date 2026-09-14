@@ -1,3 +1,5 @@
+package Lesson2_1;
+
 /**
  * ---------------------------------------------------------
  * Subject:    Computer Programming
@@ -5,7 +7,7 @@
  * Author:     chanchanjeu
  * Section:    ICT 12-01
  * Date:       Sep 5, 2026 12:53:10 PM
- * Description: Worksheet / Laboratory Activity Implementation
+ * Description: Worksheet 2.2 / Laboratory Activity Implementation
  * ---------------------------------------------------------
  *
  * @author chanchanjeu

@@ -1,3 +1,5 @@
+package Lesson2_1;
+
 import java.util.Scanner;
 
 /**
@@ -7,7 +9,7 @@ import java.util.Scanner;
  Author:     chanchanjeu
  Section:    ICT 12-01
  Date:       Sep 5, 2026 12:19:50PM
- Description: Worksheet / Laboratory Activity Implementation
+ Description: Worksheet 2.1 / Laboratory Activity Implementation
  ---------------------------------------------------------
  *
  * @author chanchanjeu
