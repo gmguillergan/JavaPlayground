@@ -11,7 +11,7 @@ package Lesson2_1;
  * Class:      Guillergan_Instantiation_ICT1201
  * Author:     chanchanjeu
  * Section:    ICT 12-01
- * Date:       Sep 13, 2026 10:53:52 PM
+ * Date:       September 13, 2026
  * Description: Worksheet 2.2 / Laboratory Activity Implementation
  * ---------------------------------------------------------
  *

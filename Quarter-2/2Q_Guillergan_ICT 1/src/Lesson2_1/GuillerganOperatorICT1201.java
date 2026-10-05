@@ -8,7 +8,7 @@ import java.util.Scanner;
  Class:      GuillerganOperatorICT1201
  Author:     chanchanjeu
  Section:    ICT 12-01
- Date:       Sep 5, 2026 12:19:50PM
+ Date:       September 5, 2026
  Description: Worksheet 2.1 / Laboratory Activity Implementation
  ---------------------------------------------------------
  *

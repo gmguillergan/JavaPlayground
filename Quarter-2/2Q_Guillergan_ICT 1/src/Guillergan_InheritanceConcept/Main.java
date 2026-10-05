@@ -6,7 +6,7 @@ package Guillergan_InheritanceConcept;
  Class:      Main.java
  Author:     chanchanjeu
  Section:    ICT 12-01
- Date:       Sep 28, 2026 2:40PM
+ Date:       September 28, 2026
  Description: Seatwork #2.1 / Main method to call classes
  ---------------------------------------------------------
  *

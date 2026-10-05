@@ -6,7 +6,7 @@ package Lesson2_2;
  Class:      Guillergan_HOA3JAVAOOP.java
  Author:     chanchanjeu
  Section:    ICT 12-01
- Date:       Sep 14, 2026 02:45:05PM
+ Date:       September 14, 2026
  Description: Worksheet 2.3 / Laboratory Activity Implementation
  ---------------------------------------------------------
  *

@@ -6,7 +6,7 @@ package Guillergan_InheritanceConcept;
  Class:      ECar.java
  Author:     chanchanjeu
  Section:    ICT 12-01
- Date:       Sep 28, 2026 2:35PM
+ Date:       September 28, 2026
  Description: Seatwork #2.1 / Another Subclass based on Car class...
  ---------------------------------------------------------
  *

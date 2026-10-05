@@ -6,7 +6,7 @@ package Lesson2_1;
  * Class:      Guillergan_JavaBasics_ICT1201
  * Author:     chanchanjeu
  * Section:    ICT 12-01
- * Date:       Sep 5, 2026 12:53:10 PM
+ * Date:       September 5, 2026
  * Description: Worksheet 2.2 / Laboratory Activity Implementation
  * ---------------------------------------------------------
  *

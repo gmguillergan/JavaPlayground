@@ -5,7 +5,7 @@ package Guillergan_Employee;
  Class:      Manager.java
  Author:     chanchanjeu
  Section:    ICT 12-01
- Date:       Sep 14, 2026 2:58:54PM
+ Date:       September 14, 2026
  Description: Worksheet 2.4 / Creating Inheritance with Method Overriding
  ---------------------------------------------------------
  *

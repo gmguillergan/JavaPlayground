@@ -7,7 +7,7 @@ package Lesson2_3;
  Class:      PolymorphismExample.java
  Author:     chanchanjeu
  Section:    ICT 12-01
- Date:       Oct 5, 2026 01:38:37PM
+ Date:       October 5, 2026
  Description: Example Code
  ---------------------------------------------------------
  *

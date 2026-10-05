@@ -6,7 +6,7 @@ package DiagnosticTest;
  * Class:      PreTestLoop
  * Author:     chanchanjeu
  * Section:    ICT 12-01
- * Date:       Sep 7, 2026 01:56:46 PM
+ * Date:       September 7, 2026
  * Description: Create a program that will use a loop construct that will display the output:
  * a a - - - - a a
  * a a - - - - a a
