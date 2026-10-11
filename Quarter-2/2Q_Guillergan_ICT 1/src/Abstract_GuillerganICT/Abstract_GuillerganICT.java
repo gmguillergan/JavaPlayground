@@ -1,10 +1,14 @@
+
 package Abstract_GuillerganICT;
 
 /**
- * --------------------------------------------------------- Subject: Computer
- * Programming Class: Abstract_GuillerganICT.java Author: Gabriel Martin
- * Guillergan Section: ICT 12-01 Date: October 12, 2026 Description: Main
- * execution class for testing the Employee and Salary models.
+ * --------------------------------------------------------- 
+ * Subject:     Computer Programming 
+ * Class:       Abstract_GuillerganICT.java
+ * Author:      Gabriel Martin Guillergan
+ * Section:     ICT 12-01
+ * Date:        October 12, 2026
+ * Description: Main execution class for testing the Employee and Salary models.
  * ---------------------------------------------------------
  *
  * @author chanchanjeu

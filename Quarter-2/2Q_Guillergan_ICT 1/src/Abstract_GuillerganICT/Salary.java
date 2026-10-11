@@ -1,3 +1,6 @@
+
+package Abstract_GuillerganICT;
+
 /*
  * ---------------------------------------------------------
  * Subject:     Computer Programming
@@ -10,10 +13,6 @@
  * 
  * @author chanchanjeu
  */
-
-
-package Abstract_GuillerganICT;
-
 
 public class Salary extends Employee {
     private double salary;
