@@ -1,0 +1,48 @@
+/*
+ * ---------------------------------------------------------
+ * Subject:     Computer Programming
+ * Class:       Salary.java
+ * Author:      Gabriel Martin Guillergan
+ * Section:     ICT 12-01
+ * Date:        October 12, 2026
+ * Description: Subclass extending Employee that manages salary calculations and check mailing.
+ * ---------------------------------------------------------
+ * 
+ * @author chanchanjeu
+ */
+
+
+package Abstract_GuillerganICT;
+
+
+public class Salary extends Employee {
+    private double salary;
+
+    public Salary(String name, String address, int number, double salary) {
+        super(name, address, number);
+        setSalary(salary);
+    }
+
+    @Override
+    public void mailCheck() {
+        System.out.println("Within mailCheck of Employee Salary ");
+        System.out.println("Mailing check to " + getName() + " with salary " + salary);
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double newSalary) {
+        if (newSalary >= 0.0) {
+            salary = newSalary;
+        }
+    }
+
+    @Override
+    public double computePay() {
+        System.out.println("Computing salary pay for " + getName());
+        return salary;
+    }
+    
+}
