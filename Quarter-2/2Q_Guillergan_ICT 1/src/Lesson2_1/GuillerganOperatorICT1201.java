@@ -4,16 +4,17 @@ import java.util.Scanner;
 
 /**
  * ---------------------------------------------------------
- Subject:    Computer Programming
- Class:      GuillerganOperatorICT1201
- Author:     chanchanjeu
- Section:    ICT 12-01
- Date:       September 5, 2026
- Description: Worksheet 2.1 / Laboratory Activity Implementation
- ---------------------------------------------------------
+ * Subject:    Computer Programming
+ * Class:      GuillerganOperatorICT1201.java
+ * Author:     Gabriel Martin Guillergan
+ * Section:    ICT 12-01
+ * Date:       September 5, 2026
+ * Description: Worksheet 2.1 / Laboratory Activity Implementation
+ * ---------------------------------------------------------
  *
  * @author chanchanjeu
  */
+
 public class GuillerganOperatorICT1201 {
     
     // Method to compare two grades

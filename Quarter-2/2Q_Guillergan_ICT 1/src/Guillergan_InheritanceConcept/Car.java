@@ -1,10 +1,11 @@
+
 package Guillergan_InheritanceConcept;
 
 /**
  * ---------------------------------------------------------
  * Subject:     Computer Programming
  * Class:       Car.java
- * Author:      chanchanjeu
+ * Author:      Gabriel Martin Guillergan
  * Section:     ICT 12-01
  * Date:        September 28, 2026
  * Description: Seatwork #2.1 / Subclass based on Vehicle class...

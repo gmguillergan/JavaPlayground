@@ -1,22 +1,19 @@
-package Lesson2_1;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+package Lesson2_1;
 
 /**
  * ---------------------------------------------------------
  * Subject:    Computer Programming
- * Class:      Guillergan_Instantiation_ICT1201
- * Author:     chanchanjeu
+ * Class:      Guillergan_Instantiation_ICT1201.java
+ * Author:     Gabriel Martin Guillergan
  * Section:    ICT 12-01
- * Date:       September 13, 2026
+ * Date:       September 5, 2026
  * Description: Worksheet 2.2 / Laboratory Activity Implementation
  * ---------------------------------------------------------
  *
  * @author chanchanjeu
  */
+
 public class Guillergan_Instantiation_ICT1201 {
   // Main method
     public static void main(String[] args) {

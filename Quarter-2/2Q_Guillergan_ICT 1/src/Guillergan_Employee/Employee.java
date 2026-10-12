@@ -1,16 +1,19 @@
+
 package Guillergan_Employee;
+
 /**
  * ---------------------------------------------------------
- Subject:    Computer Programming
- Class:      Employee.java
- Author:     chanchanjeu
- Section:    ICT 12-01
- Date:       September 14, 2026
- Description: Worksheet 2.4 / Creating Inheritance with Method Overriding
- ---------------------------------------------------------
+ * Subject:    Computer Programming
+ * Class:      Employee.java
+ * Author:     Gabriel Martin Guillergan
+ * Section:    ICT 12-01
+ * Date:       September 14, 2026
+ * Description: Worksheet 2.4 / Creating Inheritance with Method Overriding
+ * ---------------------------------------------------------
  *
  * @author chanchanjeu
  */
+
 class Employee {
     protected final String name;
     protected final double salary;

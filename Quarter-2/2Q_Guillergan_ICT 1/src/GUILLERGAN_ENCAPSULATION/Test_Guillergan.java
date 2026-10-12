@@ -5,7 +5,7 @@ package GUILLERGAN_ENCAPSULATION;
  * ---------------------------------------------------------
  * Subject:     Computer Programming
  * Class:       Test_Guillergan.java
- * Author:      chanchanjeu
+ * Author:      Gabriel Martin Guillergan
  * Section:     ICT 12-01
  * Date:        October 5, 2026
  * Description: Creating bank account and get info through Encapsulation
@@ -13,6 +13,7 @@ package GUILLERGAN_ENCAPSULATION;
  *
  * @author chanchanjeu
  */
+
 public class Test_Guillergan {
     public static void main(String[] args) {
         Guillergan_Account acc = new Guillergan_Account();

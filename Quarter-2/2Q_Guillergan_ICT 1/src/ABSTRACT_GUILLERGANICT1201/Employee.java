@@ -5,7 +5,7 @@ package ABSTRACT_GUILLERGANICT1201;
  * ---------------------------------------------------------
  * Subject:     Computer Programming
  * Class:       Employee.java
- * Author:      chanchanjeu
+ * Author:      Gabriel Martin Guillergan
  * Section:     ICT 12-01
  * Date:        October 5, 2026
  * Description: Abstract base class representing an employee.

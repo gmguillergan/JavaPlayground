@@ -1,10 +1,11 @@
+
 package DiagnosticTest;
 
 /**
  * ---------------------------------------------------------
  * Subject:    Computer Programming
- * Class:      PreTestLoop
- * Author:     chanchanjeu
+ * Class:      PreTestLoop.java
+ * Author:     Gabriel Martin Guillergan
  * Section:    ICT 12-01
  * Date:       September 7, 2026
  * Description: Create a program that will use a loop construct that will display the output:

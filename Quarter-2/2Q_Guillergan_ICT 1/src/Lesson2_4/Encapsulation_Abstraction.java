@@ -1,10 +1,11 @@
 
 package Lesson2_4;
+
 /**
  * ---------------------------------------------------------
  * Subject:     Computer Programming
  * Class:       Encapsulation and Abstraction
- * Author:      chanchanjeu
+ * Author:      Gabriel Martin Guillergan
  * Section:     ICT 12-01
  * Date:        October 5, 2026
  * Description: Demonstrating Encapsulation and Abstraction

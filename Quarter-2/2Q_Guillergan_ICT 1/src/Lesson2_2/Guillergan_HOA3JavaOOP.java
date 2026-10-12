@@ -1,10 +1,11 @@
+
 package Lesson2_2;
 
 /**
  * ---------------------------------------------------------
  Subject:    Computer Programming
  Class:      Guillergan_HOA3JAVAOOP.java
- Author:     chanchanjeu
+ Author:     Gabriel Martin Guillergan
  Section:    ICT 12-01
  Date:       September 14, 2026
  Description: Worksheet 2.3 / Laboratory Activity Implementation

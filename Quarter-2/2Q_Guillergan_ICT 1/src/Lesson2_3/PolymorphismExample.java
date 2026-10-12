@@ -5,7 +5,7 @@ package Lesson2_3;
  * ---------------------------------------------------------
  Subject:    Computer Programming
  Class:      PolymorphismExample.java
- Author:     chanchanjeu
+ Author:     Gabriel Martin Guillergan
  Section:    ICT 12-01
  Date:       October 5, 2026
  Description: Example Code

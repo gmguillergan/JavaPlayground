@@ -1,3 +1,4 @@
+
 package EmployeeCompensation_GuillerganICT;
 
 /*
@@ -10,6 +11,7 @@ package EmployeeCompensation_GuillerganICT;
  * Description: Subclass extending Employee that computes bonuses, 13th-month pay, and annual packages.
  * ---------------------------------------------------------
  */
+
 public class Compensation extends Employee {
     private double monthlySalary;
 

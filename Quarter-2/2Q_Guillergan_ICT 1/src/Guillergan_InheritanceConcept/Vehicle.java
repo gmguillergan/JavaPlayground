@@ -1,14 +1,15 @@
+
 package Guillergan_InheritanceConcept;
 
 /**
  * ---------------------------------------------------------
- Subject:    Computer Programming
- Class:      Vehicle.java
- Author:     chanchanjeu
- Section:    ICT 12-01
- Date:       September 28, 2026
- Description: Seatwork #2.1 / The parent class (Superclass)
- ---------------------------------------------------------
+ * Subject:     Computer Programming
+ * Class:       Vehicle.java
+ * Author:      Gabriel Martin Guillergan
+ * Section:     ICT 12-01
+ * Date:        September 28, 2026
+ * Description: Seatwork #2.1 / The parent class (Superclass)
+ * ---------------------------------------------------------
  *
  * @author chanchanjeu
  */

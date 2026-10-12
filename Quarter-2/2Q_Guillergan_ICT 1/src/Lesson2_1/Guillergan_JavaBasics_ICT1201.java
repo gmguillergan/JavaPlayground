@@ -1,10 +1,11 @@
+
 package Lesson2_1;
 
 /**
  * ---------------------------------------------------------
  * Subject:    Computer Programming
- * Class:      Guillergan_JavaBasics_ICT1201
- * Author:     chanchanjeu
+ * Class:      Guillergan_JavaBasics_ICT1201.java
+ * Author:     Gabriel Martin Guillergan
  * Section:    ICT 12-01
  * Date:       September 5, 2026
  * Description: Worksheet 2.2 / Laboratory Activity Implementation
@@ -12,6 +13,7 @@ package Lesson2_1;
  *
  * @author chanchanjeu
  */
+
 public class Guillergan_JavaBasics_ICT1201 {
     // Introduction method
     public void introduction(String name, String hobby, int age) {
