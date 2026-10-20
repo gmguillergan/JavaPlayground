@@ -17,7 +17,11 @@ package Guillergan_InheritanceConcept;
 class ECar extends Car {
     private int batteryCapacity = 1500;
     
-    public ECar(String brand, int year, int numberOfDoors){
+    public ECar(String brand, int year, int numberOfDoors) {
+        super(brand, year, numberOfDoors);
+    }
+
+    public ECar(String brand, int year, int numberOfDoors, int batteryCapacity) {
         super(brand, year, numberOfDoors);
         this.batteryCapacity = batteryCapacity;
     }

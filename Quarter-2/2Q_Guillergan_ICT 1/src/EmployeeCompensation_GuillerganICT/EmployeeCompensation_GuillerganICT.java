@@ -61,5 +61,7 @@ public class EmployeeCompensation_GuillerganICT {
             System.out.printf("Total Annual Compensation  : PHP %,12.2f%n", comp.getAnnualCompensation());
             System.out.println("=========================================");
         }
+
+        scanner.close();
     }
 }

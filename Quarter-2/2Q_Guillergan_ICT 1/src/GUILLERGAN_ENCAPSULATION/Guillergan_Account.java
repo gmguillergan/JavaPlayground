@@ -15,9 +15,9 @@ package GUILLERGAN_ENCAPSULATION;
  */
 
 public class Guillergan_Account {
-    private long acc_no;
+    private long accNo;
     private String name, email, bankName;
-    private float amount;
+    private double amount;
     
     public String getBank() {
         return bankName;
@@ -26,12 +26,13 @@ public class Guillergan_Account {
     public void setBank(String bankName) {
         this.bankName = bankName;
     }
+
     public long getAcc_no() {
-        return acc_no;
+        return accNo;
     }
     
-    public void setAcc_no(long acc_no) {
-        this.acc_no = acc_no;
+    public void setAcc_no(long accNo) {
+        this.accNo = accNo;
     }
     
     public String getName() {
@@ -50,12 +51,14 @@ public class Guillergan_Account {
         this.email = email;
     }
     
-    public float getAmount() {
+    public double getAmount() {
         return amount;
     }
     
-    public void setAmount(float amount) {
-        this.amount=amount;
+    public void setAmount(double amount) {
+        if (amount >= 0) {
+            this.amount = amount;
+        }
     }
 }
 

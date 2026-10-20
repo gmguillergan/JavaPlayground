@@ -19,17 +19,17 @@ public class Test_Guillergan {
         Guillergan_Account acc = new Guillergan_Account();
         
         acc.setBank("Bank of the Philippine Islands");
-        acc.setAcc_no(669121373);
+        acc.setAcc_no(669121373L);
         acc.setName("Gabriel Martin G. Guillergan");
         acc.setEmail("riel@gmguillergan.com");
-        acc.setAmount(14396.22f);
+        acc.setAmount(14396.22);
         
         System.out.println("You've successfully opened an account. \nWelcome to " + acc.getBank() + "!"
                 + "\n\n ******** DETAILS ********"
                 + "\nAcc. No       : " + acc.getAcc_no()
                 + "\nName          : " + acc.getName()
                 + "\nEmail         : " + acc.getEmail()
-                + "\nBalance       : PHP " + acc.getAmount());
+                + String.format("\nBalance       : PHP %,.2f", acc.getAmount()));
         
     }
 }
