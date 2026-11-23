@@ -35,8 +35,6 @@ public class Guillergan_LoginUI_ICT1201 extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         sunkenGardenImg = new javax.swing.JLabel();
-        logoUPH = new javax.swing.JLabel();
-        logo30th = new javax.swing.JLabel();
         logoSHS = new javax.swing.JLabel();
         header1 = new javax.swing.JLabel();
         subtitle1 = new javax.swing.JLabel();
@@ -66,25 +64,17 @@ public class Guillergan_LoginUI_ICT1201 extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setLayout(null);
 
-        sunkenGardenImg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/myloginsystem_guillergan/assets/perps_bg.jpg"))); // NOI18N
+        sunkenGardenImg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/myloginsystem_guillergan/assets/output.jpg"))); // NOI18N
         jPanel2.add(sunkenGardenImg);
         sunkenGardenImg.setBounds(540, 0, 500, 700);
 
-        logoUPH.setIcon(new javax.swing.ImageIcon(getClass().getResource("/myloginsystem_guillergan/assets/uphsd-logo-text-small.png"))); // NOI18N
-        jPanel2.add(logoUPH);
-        logoUPH.setBounds(30, 30, 270, 110);
-
-        logo30th.setIcon(new javax.swing.ImageIcon(getClass().getResource("/myloginsystem_guillergan/assets/30th-small-2.png"))); // NOI18N
-        jPanel2.add(logo30th);
-        logo30th.setBounds(410, 40, 100, 90);
-
-        logoSHS.setIcon(new javax.swing.ImageIcon(getClass().getResource("/myloginsystem_guillergan/assets/shs-small-1.png"))); // NOI18N
+        logoSHS.setIcon(new javax.swing.ImageIcon(getClass().getResource("/myloginsystem_guillergan/assets/39ers-1.png"))); // NOI18N
         jPanel2.add(logoSHS);
-        logoSHS.setBounds(340, 40, 70, 100);
+        logoSHS.setBounds(30, 40, 110, 100);
 
         header1.setFont(new java.awt.Font("Times New Roman", 1, 48)); // NOI18N
         header1.setForeground(new java.awt.Color(26, 36, 46));
-        header1.setText("Student/Parent Portal");
+        header1.setText("Cashier Login");
         header1.setToolTipText("");
         jPanel2.add(header1);
         header1.setBounds(40, 160, 470, 60);
@@ -153,14 +143,15 @@ public class Guillergan_LoginUI_ICT1201 extends javax.swing.JFrame {
         jPanel1.add(jPanel2);
         jPanel2.setBounds(130, 100, 1040, 700);
 
-        bgFaded.setIcon(new javax.swing.ImageIcon(getClass().getResource("/myloginsystem_guillergan/assets/uph-sunken-garden-faded.jpg"))); // NOI18N
+        bgFaded.setIcon(new javax.swing.ImageIcon(getClass().getResource("/myloginsystem_guillergan/assets/39ers-final.jpg"))); // NOI18N
+        bgFaded.setPreferredSize(new java.awt.Dimension(1300, 900));
         jPanel1.add(bgFaded);
         bgFaded.setBounds(0, 0, 1300, 900);
 
         getContentPane().add(jPanel1);
         jPanel1.setBounds(0, 0, 1300, 900);
 
-        setSize(new java.awt.Dimension(1300, 928));
+        setSize(new java.awt.Dimension(1316, 939));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
@@ -265,9 +256,7 @@ public class Guillergan_LoginUI_ICT1201 extends javax.swing.JFrame {
     private javax.swing.JLabel header1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JLabel logo30th;
     private javax.swing.JLabel logoSHS;
-    private javax.swing.JLabel logoUPH;
     private javax.swing.JLabel pass;
     private javax.swing.JPasswordField password;
     private javax.swing.JLabel subtitle1;
