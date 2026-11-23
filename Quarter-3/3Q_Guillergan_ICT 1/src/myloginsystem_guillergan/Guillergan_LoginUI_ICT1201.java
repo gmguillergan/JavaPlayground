@@ -47,6 +47,7 @@ public class Guillergan_LoginUI_ICT1201 extends javax.swing.JFrame {
         btnLogin = new javax.swing.JButton();
         btnExit = new javax.swing.JButton();
         btnClear = new javax.swing.JButton();
+        txtVersion = new javax.swing.JLabel();
         bgFaded = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
@@ -83,22 +84,20 @@ public class Guillergan_LoginUI_ICT1201 extends javax.swing.JFrame {
 
         header1.setFont(new java.awt.Font("Times New Roman", 1, 48)); // NOI18N
         header1.setForeground(new java.awt.Color(26, 36, 46));
-        header1.setText("Welcome back");
+        header1.setText("Student/Parent Portal");
         header1.setToolTipText("");
         jPanel2.add(header1);
-        header1.setBounds(30, 160, 320, 60);
+        header1.setBounds(40, 160, 470, 60);
 
         subtitle1.setFont(new java.awt.Font("Inter", 0, 18)); // NOI18N
-        subtitle1.setForeground(new java.awt.Color(0, 0, 0));
         subtitle1.setText("Please enter your details");
         jPanel2.add(subtitle1);
-        subtitle1.setBounds(40, 230, 250, 23);
+        subtitle1.setBounds(40, 230, 250, 24);
 
         user.setFont(new java.awt.Font("Inter", 0, 18)); // NOI18N
-        user.setForeground(new java.awt.Color(0, 0, 0));
         user.setText("Username:");
         jPanel2.add(user);
-        user.setBounds(40, 280, 250, 23);
+        user.setBounds(40, 280, 250, 24);
 
         username.setFont(new java.awt.Font("Inter", 0, 22)); // NOI18N
         username.setForeground(new java.awt.Color(55, 65, 81));
@@ -107,10 +106,9 @@ public class Guillergan_LoginUI_ICT1201 extends javax.swing.JFrame {
         username.setBounds(40, 310, 400, 50);
 
         pass.setFont(new java.awt.Font("Inter", 0, 18)); // NOI18N
-        pass.setForeground(new java.awt.Color(0, 0, 0));
         pass.setText("Password:");
         jPanel2.add(pass);
-        pass.setBounds(40, 380, 250, 23);
+        pass.setBounds(40, 380, 250, 24);
 
         password.setFont(new java.awt.Font("Inter", 0, 22)); // NOI18N
         jPanel2.add(password);
@@ -145,6 +143,12 @@ public class Guillergan_LoginUI_ICT1201 extends javax.swing.JFrame {
         });
         jPanel2.add(btnClear);
         btnClear.setBounds(260, 490, 140, 50);
+
+        txtVersion.setFont(new java.awt.Font("Inter", 0, 18)); // NOI18N
+        txtVersion.setForeground(new java.awt.Color(204, 204, 204));
+        txtVersion.setText("Written Work #1 - chanchanjeu");
+        jPanel2.add(txtVersion);
+        txtVersion.setBounds(20, 660, 250, 24);
 
         jPanel1.add(jPanel2);
         jPanel2.setBounds(130, 100, 1040, 700);
@@ -268,6 +272,7 @@ public class Guillergan_LoginUI_ICT1201 extends javax.swing.JFrame {
     private javax.swing.JPasswordField password;
     private javax.swing.JLabel subtitle1;
     private javax.swing.JLabel sunkenGardenImg;
+    private javax.swing.JLabel txtVersion;
     private javax.swing.JLabel user;
     private javax.swing.JTextField username;
     // End of variables declaration//GEN-END:variables
