@@ -12,6 +12,8 @@
  */
 package myloginsystem_guillergan;
 
+import fiveos.ui.FiveOS_POS_Guillergan;
+
 public class Guillergan_LoginUI_ICT1201 extends javax.swing.JFrame {
 
     /**
@@ -185,7 +187,7 @@ public class Guillergan_LoginUI_ICT1201 extends javax.swing.JFrame {
         }
 
         if (userInput.equals(validUser) && passInput.equals(validPassword)) {
-            new Home().setVisible(true);
+            new FiveOS_POS_Guillergan().setVisible(true);
             this.dispose();
         } else {
             javax.swing.JOptionPane.showMessageDialog(

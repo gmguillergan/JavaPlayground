@@ -11,6 +11,7 @@
  * ---------------------------------------------------------
  */
 package fiveos.ui;
+import myloginsystem_guillergan.Guillergan_LoginUI_ICT1201;
 
 import fiveos.model.CartItem;
 import fiveos.model.Product;
@@ -262,6 +263,7 @@ public class FiveOS_POS_Guillergan extends javax.swing.JFrame {
         storeNameLabel = new javax.swing.JLabel();
         taglineLabel = new javax.swing.JLabel();
         statusWrapper = new javax.swing.JPanel();
+        logoutBtn = new javax.swing.JButton();
         cashierStatusLabel = new javax.swing.JLabel();
         mainContent = new javax.swing.JPanel();
         leftCatalogPanel = new javax.swing.JPanel();
@@ -341,7 +343,7 @@ public class FiveOS_POS_Guillergan extends javax.swing.JFrame {
         backToSaleBtn = new javax.swing.JButton();
         newOrderBtn = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
         setTitle("FiveOS");
         setBackground(new java.awt.Color(248, 249, 250));
         setMinimumSize(new java.awt.Dimension(1180, 740));
@@ -382,10 +384,22 @@ public class FiveOS_POS_Guillergan extends javax.swing.JFrame {
         statusWrapper.setOpaque(false);
         statusWrapper.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT, 10, 4));
 
+        logoutBtn.setBackground(new java.awt.Color(255, 255, 255));
+        logoutBtn.setFont(new java.awt.Font("Inter", 1, 12)); // NOI18N
+        logoutBtn.setForeground(new java.awt.Color(17, 24, 39));
+        logoutBtn.setText("Log out");
+        logoutBtn.setPreferredSize(new java.awt.Dimension(114, 36));
+        logoutBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                logoutBtnActionPerformed(evt);
+            }
+        });
+        statusWrapper.add(logoutBtn);
+
         cashierStatusLabel.setBackground(new java.awt.Color(232, 243, 238));
         cashierStatusLabel.setFont(new java.awt.Font("Inter", 1, 12)); // NOI18N
         cashierStatusLabel.setForeground(new java.awt.Color(19, 111, 80));
-        cashierStatusLabel.setText("    Cashier: Gab | Terminal #01  ");
+        cashierStatusLabel.setText("    Cashier: admin | Terminal #01  ");
         cashierStatusLabel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(19, 111, 80)));
         cashierStatusLabel.setOpaque(true);
         cashierStatusLabel.setPreferredSize(new java.awt.Dimension(310, 32));
@@ -1065,6 +1079,11 @@ public class FiveOS_POS_Guillergan extends javax.swing.JFrame {
         switchRightSidebarTab(CARD_CART_VIEW);
     }//GEN-LAST:event_newOrderBtnActionPerformed
 
+    private void logoutBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_logoutBtnActionPerformed
+        new Guillergan_LoginUI_ICT1201().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_logoutBtnActionPerformed
+
     private void switchRightSidebarTab(String cardName) {
         CardLayout cl = (CardLayout) rightCardContainer.getLayout();
         cl.show(rightCardContainer, cardName);
@@ -1356,7 +1375,7 @@ public class FiveOS_POS_Guillergan extends javax.swing.JFrame {
                 summary,
                 transId,
                 "Terminal #01",
-                "Gab"
+                "admin"
         );
 
         receiptTextArea.setText(receiptText);
@@ -1418,6 +1437,7 @@ public class FiveOS_POS_Guillergan extends javax.swing.JFrame {
     private javax.swing.JPanel headerBar;
     private javax.swing.JPanel leftCatalogPanel;
     private javax.swing.JLabel logoLabel;
+    private javax.swing.JButton logoutBtn;
     private javax.swing.JPanel mainContent;
     private javax.swing.JButton minusBtn;
     private javax.swing.JButton newOrderBtn;

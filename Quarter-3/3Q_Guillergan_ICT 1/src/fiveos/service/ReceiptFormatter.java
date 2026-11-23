@@ -21,7 +21,7 @@ public class ReceiptFormatter {
     private static final int RECEIPT_WIDTH = 42;
 
     public String formatReceipt(List<CartItem> items, BillSummary summary, String transId, String cashierInfo) {
-        return formatReceipt(items, summary, transId, "Terminal #01", "Gab");
+        return formatReceipt(items, summary, transId, "Terminal #01", "admin");
     }
 
     public String formatReceipt(List<CartItem> items, BillSummary summary, String transId, String terminal, String cashier) {
